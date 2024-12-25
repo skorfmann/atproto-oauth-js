@@ -4,6 +4,11 @@ This is a library for handling ATProto OAuth flows, particularly targeting Cloud
 
 It's a work in progress and may not work as expected. It hasn't been tested in production yet. It's likely to change. And likely not a secure implementation, which will blow up in your face if you dare to use it in production without a thorough audit. But you're welcome to try it out, let me know if it works for you and help me improve it.
 
+## Usage
+
+```bash
+npm install atproto-oauth-js
+```
 
 ## Credits
 This was mainly extracted from the [frontpage.fyi](https://github.com/likeandscribe/frontpage/blob/5d362ae011b4ca83b15a30434468ac7b8b667497/packages/frontpage/lib/auth.ts) codebase.
