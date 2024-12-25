@@ -1,0 +1,7 @@
+OAUTH_CLIENT_ID='<https://your-tunnel-service-with-ssl.com>/auth/client-metadata.json'
+OAUTH_REDIRECT_URI='<https://your-tunnel-service-with-ssl.com>/auth/callback'
+CLIENT_URI='<https://your-tunnel-service-with-ssl.com>'
+JWKS_URI='<https://your-tunnel-service-with-ssl.com>/auth/jwk.json'
+PRIVATE_JWK=<pnpm run generate>
+PUBLIC_JWK=<pnpm run generate>
+COOKIE_SECRET=< openssl rand -base64 32>

@@ -1,0 +1,19 @@
+{
+  "name": "cloudflare-worker-honojs",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy --minify",
+    "generate": "tsx scripts/generate.mts",
+    "dev:tunnel": "cloudflared tunnel --url http://localhost:8787"
+  },
+  "dependencies": {
+    "atproto-oauth-js": "workspace:*",
+    "hono": "^4.6.14"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241218.0",
+    "tsx": "^4.19.2",
+    "wrangler": "^3.96.0"
+  }
+}

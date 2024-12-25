@@ -1,0 +1,11 @@
+{
+  "name": "root",
+  "version": "0.0.1",
+  "private": true,
+  "description": "OAuth client for Atproto which works across JS environments like Node.js, Deno and Cloudflare Workers.",
+  "scripts": {
+    "build": "pnpm -r --filter \"./packages/**\" build"
+  },
+  "author": "Sebastian Korfmann <sebastian@korfmann.net>",
+  "license": "MIT"
+}
