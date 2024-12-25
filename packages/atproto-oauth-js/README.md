@@ -12,4 +12,4 @@ Fruther inspiration can be found in https://github.com/pilcrowonpaper/atproto-oa
 
 ## Examples
 
-- [Cloudflare Worker HonoJS](../examples/cloudflare-worker-honojs/)
+- [Cloudflare Worker HonoJS](../../examples/cloudflare-worker-honojs/)
